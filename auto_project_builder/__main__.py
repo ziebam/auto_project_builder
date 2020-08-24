@@ -106,7 +106,7 @@ def main():
 
     templates_variables = [
         {"project_name": project_name},
-        {"year": datetime.datetime.now().year, project_author: project_author},
+        {"year": datetime.datetime.now().year, "project_author": project_author},
         {},
         {},
     ]
